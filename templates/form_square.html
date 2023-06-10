@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<form action = "/square" method = "post">
+
+    <div>
+        <label>Length</label>
+        <input type = "number" name = "length" placeholder = "length" min="1"/>
+    </div>
+
+    <div>
+        <label>Length</label>
+        <input type = "number" name = "width" placeholder = "width" min="1"/>
+    </div>
+
+    <input type = "submit" value = "Submit"/>
+
+ </form>
+
+
+{% endblock content %}
